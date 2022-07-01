@@ -526,7 +526,7 @@ width: 206px;
   transition: opacity 250ms, visibility 250ms;
 }
 .backdrop.is-hidden .modal{
-  transform: translate(-50%,-50%) scale(0) rotate(-180deg);
+  transform: translate(-50%,-50%) scale(0) rotate(-360deg);
 }
 .modal{
   min-height: 581px;
@@ -537,7 +537,7 @@ width: 206px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%) scale(1) rotate(0);
-  transition: transform 250ms;
+  transition: transform 1000ms;
 }
 .modal-close-btn{
   width: 30px;
