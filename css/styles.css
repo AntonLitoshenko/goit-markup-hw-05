@@ -105,7 +105,7 @@ img {
   background-color: var(--accent-color);
   border-radius: 2px;
   left: 0;
-  bottom: -28px;
+  bottom: -32px;
 }
 
 .nav-list-icon {
@@ -259,7 +259,10 @@ height: 120px;
   background-color: rgba(47, 48, 58, 0.8);
   height: 70px;
   width: 100%;
-  padding: 27px 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
 }
 
 /* ==========TEAM========== */
@@ -408,7 +411,7 @@ background-color: var(--accent-color);
 }
 .footer-rotation{
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .footer-container{
 margin-right: 70px;
@@ -475,6 +478,7 @@ width: 206px;
 .portfolio-nav-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .projects-card {
   padding: 20px 24px;
@@ -495,9 +499,7 @@ width: 206px;
   0px 4px 4px rgba(0, 0, 0, 0.06),
   1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.projects-list{
-  margin-top: 50px;
-}
+
 .projects-list-item:hover .projects-top-text{
   transform: translateY(0);
 }
